@@ -28,7 +28,7 @@ bulletImg=loadImage("assets/bullet.png")
 function setup() {
 
   
-  createCanvas(windowHeight,windowWidth);
+  createCanvas(windowWidth,windowHeight);
 
   //adding the background image
   bg = createSprite(displayWidth/2-20,displayHeight/2-40,20,20)
